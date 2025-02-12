@@ -1,6 +1,6 @@
 from faker import Faker
 from faker.providers import DynamicProvider
-from connections_class import PostgresqlQueries
+from utils.connections_class import PostgresqlQueries
 import warnings
 warnings.filterwarnings("ignore")
 import streamlit as st
